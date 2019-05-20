@@ -5,6 +5,8 @@
 // 3. Должен иметь в конструторе параметр для автоматического запуска(true/false).
 // 4. Длина полоски уменьшается с движением таймера.const container = document.querySelector('.container');
 
+const container = document.querySelector('.container');
+
 class Timer {
     constructor(time, isRunning = false) {
         this.time = time * 60;
